@@ -63,6 +63,14 @@ img {
   width: 100%;
 }
 
+.title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 /* link */
 .link {
   transition: color .35s ease;

@@ -1,0 +1,21 @@
+.blockquote-block {
+  margin: 150px auto;
+  max-width: 705px;
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.blockquote-block::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(12%, 12%);
+  z-index: -1;
+  width: 359px;
+  height: 61px;
+  background-color: var(--c-bg);
+}

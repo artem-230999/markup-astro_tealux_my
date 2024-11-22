@@ -66,8 +66,13 @@ img {
 /* link */
 .link {
   transition: color .35s ease;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.1%, #000 97.4%);
 }
 .link:hover {
   color: var(--c-black-hover);
+}
+
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

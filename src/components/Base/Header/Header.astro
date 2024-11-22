@@ -1,0 +1,48 @@
+---
+import Logo from '../Logo/Logo.astro';
+import './header.css';
+---
+
+<section class="header">
+  <div class="container header__container">
+    <Logo widht="74" height="105" />
+
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link link" href="#">Black</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link link" href="#">Green</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link link" href="#">White</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link link" href="#">Oolong</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link link" href="#">Pu-erh</a>
+        </li>
+      </ul>
+
+      <ul class="menu__actions">
+        <li class="menu__action">
+          <a href="#">
+            <img src="./images/icon-cart.svg" alt="icon cart">
+          </a>
+        </li>
+        <li class="menu__action">
+          <a href="#">
+            <img src="./images/icon-user.svg" alt="icon user">
+          </a>
+        </li>
+        <li class="menu__action">
+          <a href="#">
+            <img src="./images/icon-search.svg" alt="icon search">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>

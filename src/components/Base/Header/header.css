@@ -1,0 +1,30 @@
+.header {
+  padding: 30px 0;
+}
+.header__container {
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  column-gap: 235px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+  width: 100%;
+}
+.menu__list {
+  display: flex;
+  column-gap: 65px;
+}
+.menu__link {
+  font-size: 18px;
+}
+.menu__actions {
+  display: flex;
+  column-gap: 20px;
+}
+.menu__action:last-child {
+  margin-left: 80px;
+}

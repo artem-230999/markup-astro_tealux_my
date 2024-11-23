@@ -1,0 +1,48 @@
+.email-block {
+  padding: 100px 0;
+}
+.email-block__title {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.email-block__row {
+  display: flex;
+  column-gap: 40px;
+  justify-content: space-between;
+}
+.email-block__text {
+  max-width: 580px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.email-block__form-box {
+  display: flex;
+  column-gap: 25px;
+  margin-bottom: 12px;
+}
+.email-block__input {
+  align-self: flex-end;
+  width: 100%;
+  padding: 0 15px 3px;
+  border-bottom: 1px solid #b8b58b;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: transparent;
+}
+.email-block__input::placeholder {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #b8b58b;
+}
+.email-block__label {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.email-block__form-text {
+  font-weight: 300;
+  font-size: 13px;
+}

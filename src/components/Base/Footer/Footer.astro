@@ -1,9 +1,89 @@
 ---
+import Logo from '../Logo/Logo.astro';
 import './footer.css';
 ---
 
-<footer class="footer">
+<footer class="footer bg-color">
   <div class="container">
-    
+    <div class="footer__top">
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <li>
+            <h3 class="footer__subtitle">Products</h3>
+          </li>
+          <li><a class="link" href="#">Black tea</a></li>
+          <li><a class="link" href="#">Green tea</a></li>
+          <li><a class="link" href="#">White tea</a></li>
+          <li><a class="link" href="#">Oolong tea</a></li>
+          <li><a class="link" href="#">Pu-erh tea</a></li>
+        </ul>
+        <ul class="footer-nav__list">
+          <li>
+            <h3 class="footer__subtitle">Company</h3>
+          </li>
+          <li><a class="link" href="#">About Us</a></li>
+          <li><a class="link" href="#">Contact Us</a></li>
+          <li><a class="link" href="#">Our Blog</a></li>
+          <li><a class="link" href="#">FAQ</a></li>
+          <li><a class="link" href="#">Shipping & Delivery</a></li>
+          <li><a class="link" href="#">Refund policy</a></li>
+          <li><a class="link" href="#">Terms of Service</a></li>
+        </ul>
+      </nav>
+      <div class="footer__content">
+        <blockquote class="footer__blockquote">
+          <p>
+            “Tea is a journey. It can take you to new places and open your mind to new experiences. Let every sip transport you to a world of wonder and possibility”
+          </p>
+          <div class="footer__blockquote-name">
+            Dragomir Teodorescu, <br>
+            Tealuxe owner
+          </div>
+        </blockquote>
+        <div class="footer__info">
+          <h3 class="footer__subtitle">Stay In Touch</h3>
+          <div class="footer__info-text">
+            <p>
+              Please feel free to contact us via the email of phone. We would be happy to hear from you!
+            </p>
+          </div>
+          <div class="footer__contacts">
+            <Logo />
+
+          </div>
+          <ul class="footer-social">
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--facebook bg" href="#">
+
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--youtube bg" href="#">
+
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--instagram bg" href="#">
+
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--twitter bg" href="#">
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">© Tealuxe, 2023</span>
+        <ul class="footer__partners">
+          <li class="footer__partners-item footer__partners-mastercard bg"></li>
+          <li class="footer__partners-item footer__partners-visa bg"></li>
+          <li class="footer__partners-item footer__partners-gpay bg"></li>
+          <li class="footer__partners-item footer__partners-paypal bg"></li>
+        </ul>
+      </div>
   </div>
 </footer>

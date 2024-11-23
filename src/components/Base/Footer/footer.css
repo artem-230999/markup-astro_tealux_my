@@ -1,3 +1,123 @@
 .footer {
-  padding-top: 500px;
+  padding: 100px 0 18px;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 155px;
+}
+.footer-nav {
+  display: flex;
+  column-gap: 213px;
+}
+.footer-nav__list {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.footer__subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.footer-nav__list .link {
+  font-weight: 300;
+}
+.footer__content {
+  display: flex;
+  gap: 40px;
+}
+.footer__blockquote {
+  margin-top: 79px;
+  max-width: 270px;
+  font-weight: 300;
+}
+.footer__blockquote p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.footer__blockquote-name {
+  font-size: 12px;
+}
+.footer__info {
+  max-width: 270px;
+}
+.footer__info-text {
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 22px;
+}
+.footer-social__item {
+}
+.footer-social__link::after {
+  content: '';
+  background-color: var(--c-black);
+}
+.footer-social__link--facebook {
+  width: 22px;
+  height: 22px;
+}
+.footer-social__link--facebook::after {
+  mask-image: var(--icon-facebook);
+  width: 22px;
+  height: 22px;
+}
+.footer-social__link--youtube::after {
+  width: 24px;
+  height: 18px;
+  mask-image: var(--icon-youtube);
+}
+.footer-social__link--instagram::after {
+  width: 22px;
+  height: 22px;
+  mask-image: var(--icon-instagram);
+}
+.footer-social__link--twitter::after {
+  width: 22px;
+  height: 18px;
+  mask-image: var(--icon-twitter);
+}
+.footer__bottom {
+  margin-top: 100px;
+  display: flex;
+  column-gap: 192px;
+}
+.footer__copy {
+  font-weight: 300;
+}
+.footer__partners {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.footer__partners-item {
+  background-size: contain;
+}
+.footer__partners-mastercard {
+  width: 26px;
+  height: 20px;
+  background-image: url('./images/icon-mastercard.svg');
+}
+.footer__partners-visa {
+  width: 31px;
+  height: 10px;
+  background-image: url('./images/icon-visa.svg');
+}
+.footer__partners-gpay {
+  width: 29px;
+  height: 12px;
+  background-image: url('./images/icon-gpay.svg');
+}
+.footer__partners-paypal {
+  width: 10px;
+  height: 12px;
+  background-image: url('./images/icon-paypal.svg');
 }
